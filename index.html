@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Notepad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="notepad">
+        <textarea id="note" placeholder="Write your notes here..."></textarea>
+        <div class="buttons">
+            <button class="clear-btn" onclick="clearText()">Clear</button>
+            <button class="save-btn" onclick="saveText()">Save</button>
+        </div>
+        <div class="saved-notes">
+            <h3>Saved Notes</h3>
+            <div id="notes-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
